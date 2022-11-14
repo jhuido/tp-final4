@@ -3,6 +3,8 @@ const Destino = require("../src/Destino");
 const Local = require("../src/Local");
 const Mapa = require("../src/Mapa");
 
+beforeEach()
+
 test("Crear Paquete",()=>{
     const facturacion=new Centro("Facturacion",3);
     const calidad=new Centro("Calidad",4);
@@ -16,3 +18,5 @@ test("Crear Paquete",()=>{
     expect(paquete.tiempo).toBe(0);
     expect(paquete.destino.nombre).toBe(1);
 })
+
+
