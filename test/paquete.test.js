@@ -1,4 +1,6 @@
 const Destino = require("../src/Destino");
+const Local = require("../src/Local");
+const Paquete = require("../src/Paquete");
 
 test("Crear Paquete",()=>{
     const local=new Local("A");
