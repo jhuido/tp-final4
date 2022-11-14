@@ -1,5 +1,5 @@
-function Centro(colaEspera){
-    this.colaEspera=colaEspera;
+function Centro(procesamiento){
+    this.procesamiento=procesamiento;
 }
 
 module.exports=Centro;
