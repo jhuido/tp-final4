@@ -7,7 +7,7 @@ function Local(nombre,fila,centros){
 
     this.generePaquete=function(destino,mapa){
         const paquete=new Paquete(destino);
-        mapa.nuevoPaquete(this,paquete);
+        mapa.nuevoPaquete(this.fila,paquete);
         return paquete;
     }
 }
