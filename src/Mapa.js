@@ -6,6 +6,7 @@ function Mapa(filas,columnas){
     this.mapa=new Array(filas);
 
     this.nuevoPaquete=function(local,paquete){
+        this.mapa[local]=new Array();
         this.mapa[local][0]=paquete;
     }
 }
