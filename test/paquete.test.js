@@ -1,6 +1,7 @@
+const Centro = require("../src/Centro");
 const Destino = require("../src/Destino");
 const Local = require("../src/Local");
-const Paquete = require("../src/Paquete");
+const Mapa = require("../src/Mapa");
 
 test("Crear Paquete",()=>{
     const facturacion=new Centro("Facturacion",3);
