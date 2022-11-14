@@ -1,3 +1,5 @@
+const Paquete=require("../src/Paquete")
+
 function Local(nombre,fila){
     this.nombre=nombre;
     this.fila=fila;
