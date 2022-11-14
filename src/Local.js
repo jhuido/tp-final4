@@ -2,7 +2,7 @@ function Local(nombre,fila){
     this.nombre=nombre;
     this.fila=fila;
 
-    this.generePaquete(mapa,destino){
+    this.generePaquete=function(mapa,destino){
         const paquete=new Paquete(destino);
         mapa[fila][0].push(paquete);
         return paquete;
