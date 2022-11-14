@@ -5,8 +5,9 @@ function Local(nombre,fila,centros){
     this.fila=fila;
     this.centros=centros //[facturacion,colaEspera]
 
-    this.generePaquete=function(destino){
+    this.generePaquete=function(destino,mapa){
         const paquete=new Paquete(destino);
+        mapa.nuevoPaquete(local,paquete);
         return paquete;
     }
 }
